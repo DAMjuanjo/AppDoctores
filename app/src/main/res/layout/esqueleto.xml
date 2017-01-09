@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:weightSum="1"
+    >
+
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/display"
+        android:clickable="true"
+        android:background="@drawable/oval_shape"
+        android:gravity="center"
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:layout_width="230dp"
+        android:layout_marginLeft="40dp"
+        android:layout_height="match_parent"
+        android:id="@+id/txt_nombre"
+        android:textSize="15dp"
+        android:textColor="@color/colorTextMedicos"
+        android:gravity="center_vertical"
+
+        />
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+

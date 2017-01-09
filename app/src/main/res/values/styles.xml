@@ -1,0 +1,68 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MiEstiloEditText"  parent="AppTheme">
+        <item name="android:background">@color/colorEditText</item>
+    </style>
+
+    <style name="MiEstiloFondo"  parent="AppTheme">
+        <item name="android:background">@color/colorfondo</item>
+    </style>
+
+    <style name="MiEstiloFab"  parent="AppTheme">
+        <item name="android:background">@color/colorfab</item>
+    </style>
+
+    <style name="MiEstiloTxt" parent="AppTheme">
+        <item name="android:textColor">@color/colorjuanjo</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:layout_marginLeft">@dimen/TxtIzquierda</item>
+        <item name="android:layout_marginRight">@dimen/TxtDerecha</item>
+        <item name="android:layout_marginTop">156dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+    </style>
+
+    <style name="txt_toolbar" parent="AppTheme">
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <style name="margin_toolbar" parent="AppTheme">
+        <item name="expandedTitleMarginStart">72dp</item>
+    </style>
+
+    <style name="content_toolbar" parent="AppTheme">
+        <item name="contentInsetStart">72dp</item>
+    </style>
+
+    <style name="miEstiloLista" parent="AppTheme">
+        <item name="android:background">@color/backgroundxmlLista</item>
+    </style>
+
+
+    <style name="Stylo_txt_medicos">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+    <style name="estilo_txt_lista">
+        <item name="android:layout_marginEnd">26dp</item>
+        <item name="android:layout_marginBottom">13dp</item>
+        <item name="android:textColor">@color/colorTxt_lista</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_alignBottom">@+id/fab_medicosXml</item>
+        <item name="android:layout_toStartOf">@+id/fab_medicosXml</item>
+    </style>
+
+</resources>

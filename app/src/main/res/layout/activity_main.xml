@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFondolista1"
+    tools:context="com.example.usuario.trabajofintrimestre.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctores"
+        style="@style/MiEstiloTxt"
+        android:id="@+id/txt_doctor"
+        android:layout_marginBottom="43dp"
+        android:layout_above="@+id/fab"
+        android:layout_centerHorizontal="true" />
+
+    <android.support.design.widget.FloatingActionButton
+        app:fabSize="normal"
+        style="@style/MiEstiloFab"
+        app:backgroundTint="@color/colorfab"
+        app:elevation="@dimen/fabElevacion"
+        android:id="@+id/fab"
+        android:src="@drawable/corazon"
+        android:layout_height="match_parent"
+        android:layout_width="200dp"
+        android:stateListAnimator="@drawable/fab_raise"
+        android:layout_marginBottom="104dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundXml">#FFF7DA</color>
+    <color name="backgroundxmlLista">#E6EE9C</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorEditText">#ffffff</color>
+    <color name="colorjuanjo">#212121</color>
+    <color name="colorfab">#ffffff</color>
+    <color name="colorfondo">#90caf9</color>
+    <color name="colorUrólogo">#FD8E09</color>
+    <color name="colorOftalmólogo">#379237</color>
+    <color name="colorPsicólogo">#8800A0</color>
+    <color name="colorDentista">#16AFCA</color>
+    <color name="colorTraumatólogo">#FD8E09</color>
+    <color name="colorPsiquiatra">#379237</color>
+    <color name="colorFisioterapeuta">#8800A0</color>
+    <color name="colorOtorrinolaringologo">#16AFCA</color>
+    <color name="colorNutricionista">#FD8E09</color>
+    <color name="colorGinecólogo">#379237</color>
+    <color name="colorTxt_lista">#03A9F4</color>
+    <color name="colorFondoLista">#424242</color>
+    <color name="colorMedicos">#424242</color>
+    <color name="colorTextMedicos">#000000</color>
+    <color name="colorFondolista1">#90caf9</color>
+    <color name="colorFondolista2">#ffffff</color>
+</resources>

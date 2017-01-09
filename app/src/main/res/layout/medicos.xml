@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundXml"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_urologo"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista1"
+        android:onClick="toolbar1clase"
+        android:text="Urólogo"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_oftalmologo"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista2"
+        android:onClick="toolbar1clase"
+        android:text="Oftalmólogo"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_psicologo"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista1"
+        android:onClick="toolbar1clase"
+        android:text="Psicólogo"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_dentista"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista2"
+        android:onClick="toolbar1clase"
+        android:text="Dentista"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/txt_traumatolgo"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista1"
+        android:onClick="toolbar1clase"
+        android:text="Traumatólogo"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_psiquiatra"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista2"
+        android:onClick="toolbar1clase"
+        android:text="Psiquiatra"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_fisioterapeuta"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista1"
+        android:onClick="toolbar1clase"
+        android:text="Fisioterapeuta"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_otorrinolaringologo"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista2"
+        android:onClick="toolbar1clase"
+        android:text="Otorrinolaringólogo"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_nutricionista"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista1"
+        android:onClick="toolbar1clase"
+        android:text="Nutricionista"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txt_ginecologo"
+        style="@style/Stylo_txt_medicos"
+        android:background="@color/colorFondolista2"
+        android:onClick="toolbar1clase"
+        android:text="Ginecólogo"
+        android:textColor="@color/colorFondoLista"
+        android:layout_weight="1"
+        />
+
+
+
+</LinearLayout>

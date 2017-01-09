@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorfab">
+
+    <ListView
+
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:id="@+id/mListView">
+
+    </ListView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        app:fabSize="normal"
+        style="@style/MiEstiloFab"
+        app:elevation="@dimen/fabElevacion"
+        android:id="@+id/fab_medicosXml"
+        android:src="@drawable/fab_plus"
+        android:layout_height="match_parent"
+        android:layout_width="57dp"
+        android:stateListAnimator="@drawable/fab_raise"
+        android:layout_weight="1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/marginEnd"
+        android:layout_marginBottom="@dimen/marginBotom"
+        app:backgroundTint="@color/colorFisioterapeuta"
+        />
+
+
+    <TextView
+        style="@style/estilo_txt_lista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visualizar Medicos "
+        android:id="@+id/txt_lista"
+        android:layout_marginBottom="15dp"
+        android:layout_alignBottom="@+id/fab_medicosXml"
+        android:layout_toStartOf="@+id/fab_medicosXml"
+        android:layout_marginEnd="26dp" />
+
+
+</RelativeLayout>

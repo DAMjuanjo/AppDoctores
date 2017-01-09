@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.usuario.trabajofintrimestre">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.usuario.trabajofintrimestre.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.activity_listView"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar1clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.medicos"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar3clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar2clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar4clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar5clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar6clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar7clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar8clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar9clase"></activity>
+        <activity android:name="com.example.usuario.trabajofintrimestre.toolbar10clase"></activity>
+
+    </application>
+
+</manifest>
